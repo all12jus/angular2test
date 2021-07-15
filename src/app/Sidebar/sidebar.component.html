@@ -1,0 +1,13 @@
+<!--<p>Sidebar</p>-->
+<br />
+<div class="list-group">
+  <a *ngFor="let product of products"
+     type="button"
+     class="list-group-item"
+     [routerLink]="['/' + product.id]"
+     routerLinkActive="active">
+    <img src="assets/img/{{ product.imageUrl }}" style="height: 2em;">
+    {{ product.title }}
+  </a>
+</div>
+

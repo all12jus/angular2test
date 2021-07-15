@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+p.test {
+  color: blue;
+}
+
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: lightgray;
+  /*text-align: center;*/
+}
+
+.img-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
